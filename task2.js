@@ -14,9 +14,9 @@ div.append(btn1, btn2, btn3);
 
 const employees = [
     { name: "Alice", age: 28, salary: 50000 },
-    { name: "Bob", age: 34, salary: 60000 },
+    { name: "Bob", age: 34, salary: 32000 },
     { name: "Charlie", age: 25, salary: 45000 },
-    { name: "Diana", age: 30, salary: 55000 },
+    { name: "Diana", age: 30, salary: 38000 },
     { name: "Ethan", age: 40, salary: 70000 }
 ];
 
@@ -32,13 +32,13 @@ function displayResult(message) {
 
 btn1.addEventListener("click", () => {
     const names = employees.map(emp => emp.name);
-    displayResult("Employee Names: " + names.join(", "));
+    displayResult("Employee Names:\n " + names.join("\n"));
 });
 
 btn2.addEventListener("click", () => {
     const filtered = employees.filter(emp => emp.salary > 40000);
     const names = filtered.map(emp => emp.name);
-    displayResult("Employees with salary > 40000: " + names.join(", "));
+    displayResult("Employees with salary > 40000:\n " + names.join("\n"));
 });
 
 btn3.addEventListener("click", () => {

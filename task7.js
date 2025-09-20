@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const heading = document.createElement("h2");
+const heading = document.createElement("h1");
 heading.innerText = "Image Gallery";
 body.appendChild(heading);
 

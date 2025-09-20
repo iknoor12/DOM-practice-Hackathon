@@ -11,6 +11,7 @@ const p=document.createElement("p");
 div.append(p);
 
 const input=document.createElement("input");
+input.setAttribute("placeholder", "write anything..");
 div.append(input);
 
 input.addEventListener("keydown", function(event) {

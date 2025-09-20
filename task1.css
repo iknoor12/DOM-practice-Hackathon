@@ -1,21 +1,19 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 20px;
 }
 
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     text-align: center;
     color: #170303;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    margin-top: 2em;
     margin-bottom: 30px;
     font-size: 36px;
 }
@@ -23,7 +21,7 @@ h1 {
 
 div {
     background: #ffffff;
-    padding: 30px 40px;
+    padding: 60px 70px;
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
     display: flex;
@@ -35,8 +33,8 @@ div {
 
 
 input {
-    padding: 12px 15px;
-    font-size: 16px;
+    padding: 14px 17px;
+    font-size: 18px;
     border: 2px solid #ddd;
     border-radius: 12px;
     width: 100%;
@@ -52,7 +50,7 @@ input:focus {
 
 button {
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #ff6f61;
     color: white;
     border: none;

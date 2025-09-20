@@ -15,7 +15,7 @@ btn.addEventListener("click", function data(){
 
         users.forEach(user => {
             const para = document.createElement("p");
-            para.innerText = `Name: ${user.name}, Email: ${user.email}, City: ${user.address.city}`;
+            para.innerHTML = `<strong>Name:</strong> ${user.name}, <br><strong>Email:</strong> ${user.email}, <br><strong>City:</strong> ${user.address.city}`;
             div.append(para);
         });
     })
