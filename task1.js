@@ -1,13 +1,22 @@
 const body = document.querySelector("body");
 
+const title = document.createElement("h1");
+title.innerText = "Grade Calculator";
+body.append(title);
+
 const div = document.createElement("div");
 body.append(div);
 
 const input1 = document.createElement("input");
+input1.setAttribute("placeholder", "Enter 1st number..");
 const input2 = document.createElement("input");
+input2.setAttribute("placeholder", "Enter 2nd number..");
 const input3 = document.createElement("input");
+input3.setAttribute("placeholder", "Enter 3rd number..");
 const input4 = document.createElement("input");
+input4.setAttribute("placeholder", "Enter 4th number..");
 const input5 = document.createElement("input");
+input5.setAttribute("placeholder", "Enter 5th number..");
 
 const btn = document.createElement("button");
 btn.innerText = "Calculate Grade";
@@ -43,4 +52,3 @@ function calculation(){
     div.append(result);
 
 }
-   

@@ -1,18 +1,58 @@
-h1{
-    text-align: center;
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
+
+/* Page body styling */
+body {
+  background: #e1eafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #333;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  color: #222;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Container for buttons */
 .buttonBox {
-    background-color: red;
-    display: grid;
-    justify-content: center;
-    gap: 1em;
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  max-width: 800px;
 }
 
+/* Buttons */
 .btn {
-    font-size: 1.3em;
-    padding: 1rem;
+  background: #0077cc;
+  color: white;
+  padding: 20px 30px;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  min-width: 220px;
 }
 
-a{
-    text-decoration: none;
+/* Hover & active effect */
+.btn:hover {
+  background: #005fa3;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+  background: #004f85;
 }
