@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.buttonBox {
+    background-color: red;
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+}
+
+.btn {
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
